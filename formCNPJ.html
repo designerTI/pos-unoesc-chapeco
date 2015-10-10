@@ -3,12 +3,13 @@
 <head>
 	<meta charset="UTF-8"/>
 	<title>AULA HTML - Form</title>
-  <script src="js/cpf.js" type="text/javascript"></script>
+  <script src="js/cnpj.js" type="text/javascript"></script>
   <script>
-  function vCPF(input){
+  function vCNPJ(input){
       var mensagem = "";
+
     console.log(1);
-    input.setCustomValidity(validaCPF(input.value) ? "" : "Testes");
+    input.setCustomValidity(validarCNPJ(input.value) ? "" : "CNPJ Invalido");
 
   }
 
@@ -16,8 +17,8 @@
 </head>
 <body>
 	<form>
-    <label>CPF:
-      <input name="CPF" id="CPF" oninput="vCPF(this)">
+    <label>CNPJ:
+      <input name="CNPJ" id="CNPJ" oninput="vCNPJ(this)">
     </label>
    
     <input type="submit" value="Enviar"/>
