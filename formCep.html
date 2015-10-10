@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<title>AULA HTML - Form</title>
+  
+</head>
+<body>
+	<form>
+    <label for="CEP">CEP:
+      <input name="CEP" id="CEP" required pattern="\d{5}-?\d{3}" onchange="javascript:console.log('change')" oninput="javascript:console.log('input')">
+    </label>
+   
+    <input type="submit" value="Enviar" formnovalidate/>
+    
+  </form>
+</body>
+</html>

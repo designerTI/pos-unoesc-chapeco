@@ -3,15 +3,32 @@
 <head>
 	<meta charset="UTF-8"/>
 	<title>AULA HTML - Form</title>
-  
+  <script src="/js/cpf.js" type="text/javascript"></script>
+  <script>
+  function vCPF(input){
+      var mensagem = "";
+     /* if (validaCPF(input.value)) {
+        mensagem = "";
+      }
+      else{
+        mensagem = 'CPF inválido!';
+      }
+      input.setCustomValidity(mensagem);
+*/
+    console.log(1);
+    i.setCustomValidity(validaCPF(i,value) ? "" : "Mensagem");
+
+  }
+
+  </script>
 </head>
 <body>
 	<form>
-    <label for="CEP">CEP:
-      <input name="CEP" id="CEP" required pattern="\d{5}-?\d{3}" onchange="javascript:console.log('change')" oninput="javascript:console.log('input')">
+    <label>CPF:
+      <input name="CPF" id="CPF" oninput="vCPF(this)">
     </label>
    
-    <input type="submit" value="Enviar" formnovalidate/>
+    <input type="submit" value="Enviar"/>
     
   </form>
 </body>
