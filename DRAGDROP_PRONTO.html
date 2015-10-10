@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Darg and drop - HTML - Resolvido</title>
+  <title>Drag and drop</title>
 
   <style type="text/css">
   li {
     list-style: none;
   }
+
   li a {
     text-decoration: none;
     color: #000;
@@ -18,39 +19,54 @@
     padding: 10px;
     display: block;
   }
+
   *[draggable=true] {
     -moz-user-select:none;
     -khtml-user-drag: element;
     cursor: move;
   }
+
   *:-khtml-drag {
     background-color: rgba(238,238,238, 0.5);
   }
+
   li a:hover:after {
     content: ' (drag me)';
   }
+
   ul {
     margin-left: 200px;
     min-height: 300px;
   }
+
   li.over {
     border-color: #333;
     background: #ccc;
   }
+
   #bin {
-    background: url(images/bin.png) top right no-repeat;
+    background: top right no-repeat;
     height: 250px;
-    width: 166px; 
+    width: 166px;
     float: left;
     border: 5px solid #000;
     position: relative;
     margin-top: 0;
   }
-  #bin.over {
-    background: url(images/binCheio.png) top left no-repeat;
-
-
+  #bin.lixeira_vazia{
+  	background-image:  url(https://cdn1.iconfinder.com/data/icons/appicns/513/appicns_Trash_Empty.png);
+  	background-size: 100% auto;
   }
+  #bin.lixeira_cheia{
+  	background-image: url(https://cdn1.iconfinder.com/data/icons/appicns/513/appicns_Trash_Full.png);
+  	background-size: 100% auto;
+  }
+  #bin.over{
+  	border-color: green;
+  	background-image: url(https://cdn1.iconfinder.com/data/icons/appicns/513/appicns_Trash_Full.png);
+  	background-size: 100% auto;
+  }
+ 
   #bin p {
     font-weight: bold;
     text-align: center;
@@ -77,6 +93,7 @@
   </ul>
 </article>
   <script>
+
 var addEvent = (function () {
   if (document.addEventListener) {
     return function (el, type, fn) {
@@ -100,10 +117,13 @@ var addEvent = (function () {
     };
   }
 })();
+
+
   var eat = ['yum!', 'gulp', 'burp!', 'nom'];
   var yum = document.createElement('p');
   var msie = /*@cc_on!@*/0;
   yum.style.opacity = 1;
+
   var links = document.querySelectorAll('li > a'), el = null;
   for (var i = 0; i < links.length; i++) {
     el = links[i];
@@ -115,31 +135,41 @@ var addEvent = (function () {
       e.dataTransfer.setData('Text', this.id); // required otherwise doesn't work
     });
   }
+
   var bin = document.querySelector('#bin');
+  bin.className = "lixeira_vazia";
   addEvent(bin, 'dragover', function (e) {
     if (e.preventDefault) e.preventDefault(); // allows us to drop
     this.className = 'over';
     e.dataTransfer.dropEffect = 'copy';
     return false;
   });
+
   // to get IE to work
   addEvent(bin, 'dragenter', function (e) {
     this.className = 'over';
     return false;
   });
+
   addEvent(bin, 'dragleave', function () {
     this.className = '';
   });
+
   addEvent(bin, 'drop', function (e) {
+
     if (e.stopPropagation) e.stopPropagation(); // stops the browser from redirecting...why???
+
     var el = document.getElementById(e.dataTransfer.getData('Text'));
     
     el.parentNode.removeChild(el);
+    
     // stupid nom text + fade effect
-    bin.className = 'over';
+      	bin.className = "lixeira_cheia";
     yum.innerHTML = eat[parseInt(Math.random() * eat.length)];
+
     var y = yum.cloneNode(true);
     bin.appendChild(y);
+
     setTimeout(function () {
       var t = setInterval(function () {
         if (y.style.opacity <= 0) {
@@ -152,8 +182,10 @@ var addEvent = (function () {
         }
       }, 50);
     }, 250);
+
     return false;
   });
+
   </script>
 
 </body>
