@@ -1,28 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8"/>
-	<title>AULA HTML - Form</title>
-  <script src="js/cnpj.js" type="text/javascript"></script>
-  <script>
-  function vCNPJ(input){
-      var mensagem = "";
+    <head>
+        <meta charset="UTF-8"/>
+        <title>AULA HTML - Form</title>
+        <script src="js/cnpj.js" type="text/javascript"></script>
+        <script>
+        function vCNPJ(input){
+            var mensagem = "";
+            console.log(1);
+            input.setCustomValidity(validarCNPJ(input.value) ? "" : "CNPJ Invalido");
+        }
+        </script>
+    </head>
+    <body>
+        <form>
+            <label>CNPJ:
+                <input name="CNPJ" id="CNPJ" oninput="vCNPJ(this)" plac>
+            </label>
 
-    console.log(1);
-    input.setCustomValidity(validarCNPJ(input.value) ? "" : "CNPJ Invalido");
+            <input type="submit" value="Enviar"/>
 
-  }
-
-  </script>
-</head>
-<body>
-	<form>
-    <label>CNPJ:
-      <input name="CNPJ" id="CNPJ" oninput="vCNPJ(this)">
-    </label>
-   
-    <input type="submit" value="Enviar"/>
-    
-  </form>
-</body>
+        </form>
+    </body>
 </html>
