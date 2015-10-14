@@ -10,8 +10,15 @@ Acadêmico: Ednilson Fernando Devilla
 
 ###**1.	Negação**
 
-	Quando todos os parágrafos já tem um estilo de cor definido e precisa destacar uma cor
-	diferente em um outro paragrafo do texto, usando uma classe resolve. Abaixo segue o exemplo.
+Quando todos os parágrafos já tem um estilo de cor definido e precisa destacar uma cor
+diferente em um outro paragrafo do texto, usando uma classe resolve. Abaixo segue o exemplo.
+
+####HTML
+Quadro 1: Exemplo HTML.
+	<p>Texto de exemplo</p>
+	<p>Texto de exemplo</p>
+	<p class="especial">Texto de exemplo especial</p>
+	<p>Mais textos de exemplos</p>
+
 
 Here's an idea: why don't we take `SuperiorProject` and turn it into `**Reasonable**Project`.
-####**HTML
