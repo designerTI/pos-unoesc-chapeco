@@ -15,7 +15,7 @@ Quadro 1: Exemplo HTML.<br/>
 	`<p>Texto de exemplo</p>`<br/>
 	`<p>Texto de exemplo</p>`<br/> 
 	`<p class="especial">Texto de exemplo especial</p>`<br/>
-	`<p>Mais textos de exemplos</p>`<br/> 
+	`<p>Mais textos de exemplos</p>`
 	
 * Fonte: W3C, (2014).<br/><br/>
 
@@ -26,7 +26,7 @@ Quadro 2: Exemplo CSS<br/>
 `}`<br/>
 `p.especial{`<br/>
   `color: black; /* cor do texto especial */`<br/>
-`}`<br/>
+`}`
 * Fonte: W3C, (2014).<br/>
 
 Outra forma de se fazer é com elementos que não batem naquela regra, isso quer dizer que, queremos todos os parágrafos que não têm a classe especial. A sintaxe do *:not()* recebe como argumento algum outro seletor simples como classes, id ou tags. Abaixo o exemplo.<br/>
@@ -35,11 +35,62 @@ Outra forma de se fazer é com elementos que não batem naquela regra, isso quer
 Quadro 3: Exemplo CSS :not()<br>
 `p:not(.especial){`<br/>
   `color: gray;`<br/>
-`}`<br/>
+`}`
 
 * Fonte: W3C, (2014).<br/>
 
 ###2.	Pseudo-classes <br/>
 Quando se quer mudar a cor do primeiro e do ultimo elemento de uma lista, com elementos que já são pré definidos os elementos são chamamos de pseudo-classes. O primeiro elemento chamamos de *first-child* e o ultimo elemento de *last-child*. O HTML fica igual, vejamos o exemplo no quadro abaixo. <br/>
+
+Quadro 4: Exemplo HTML<br/>
+`<ul>`<br/>
+  `<li>Primeiro item</li>`<br/>
+  `<li>Segundo item</li>`<br/>
+  `<li>Terceiro item</li>`<br/>
+  `<li>Quarto item</li>`<br/>
+`</ul>`
+* Fonte: Caelum, (2010).<br/> 
+
+No CSS, podemos usar pseudo-classes, repare no exemplo apresentado no quadro 5 é que mudou o operador de ponto para dois pontos, diferenciando um do outro.<br/>
+
+Quadro 5: Exemplo CSS<br/>
+`li:first-child{`<br/>
+  `color: red;`<br/>
+`}`<br/>
+`li:last-child{`<br/>
+  `color: blue;`<br/>
+`}`
+* Fonte: Caelum, (2010).
+<br/>
+###3.	Pseudo elementos<br/>
+Pseudo elementos são elementos que não existem no documento HTML mas podem ser selecionados através do CSS. Por exemplo o HTML fica de uma forma normal como apresentado no quadro 6.<br/>
+
+Quadro 6: Exemplo HTML<br>
+`<p>Exemplo de texto no HTML!</p>`
+* Fonte: Maujor, (2006).<br/>
+ 
+O CSS apresentado no quadro 7, modifica apenas a primeira letra.<br/>
+Quadro 7: Exemplo CSS<br>
+`p:first-letter{`
+  `font-size: 200%;`
+`}`
+* Fonte: Maujor, (2006).<br/>
+ 
+Existe também outro Pseudo elemento que seleciona apenas a primeira linha.<br/>
+Quadro 8: Exemplo CSS<br/>
+`p:first-line{`<br/>
+  `font-style: italic;`<br/>
+`}`
+* Fonte: Maujor, (2006).<br/>
+ 
+###4.	Transitions<br/>
+
+
+
+
+
+
+ 
+
 
 
