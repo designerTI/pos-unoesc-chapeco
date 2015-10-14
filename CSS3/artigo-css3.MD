@@ -130,7 +130,7 @@ Através dessa nova especificação é possível alterar propriedades visuais do
 
 No quadro 13 apresenta-se a propriedade *transalate*.<br/>
 
-##5.1 Translate<br/>
+####5.1 Translate<br/>
 Move os elementos entre os eixos X e Y.<br/>
 
 Quadro 13: Exemplo CSS<br/>
@@ -148,7 +148,7 @@ Quadro 13: Exemplo CSS<br/>
 `}`
 * Fonte: W3C, (2014).<br/>
 
-##5.2 Rotate<br/>
+####5.2 Rotate<br/>
 Rotaciona os elementos.<br/>
 
 Quadro 14: Exemplo de CSS, que rotaciona os elementos.<br/>
@@ -157,7 +157,7 @@ Quadro 14: Exemplo de CSS, que rotaciona os elementos.<br/>
 `}`
 * Fonte: W3C, (2014).<br/>
 
-##5.3 Scale<br/>
+####5.3 Scale<br/>
 
 Altera escalas de elementos.<br/>
 Quadro 15: Exemplo de CSS, scale.<br/>
@@ -172,7 +172,7 @@ Quadro 15: Exemplo de CSS, scale.<br/>
 `}`
 * Fonte: W3C, (2014).<br/>
 
-##5.4 Skew<br/>
+####5.4 Skew<br/>
 
 Distorce os elementos.<br/>
 Quadro 16: Exemplo CSS, distorce os elementos selecionados.<br/>
@@ -197,7 +197,7 @@ Quadro 17: Exemplo CSS, combinando vários elementos<br/>
 
 ###6.	Seletores avançados<br/>
 
-##6.1 Seletor de irmãos<br/>
+####6.1 Seletor de irmãos<br/>
 
 O quadro 18 apresenta um HTML que simula vários parágrafos, títulos e subtítulos em um documento.<br/>
 
@@ -216,19 +216,20 @@ Quadro 19: Exemplo CSS, seletor de irmãos<br/>
 `h2 ~ p{`<br/>
   `font-style: italic;`<br/>
 `}`
-* Fonte: Maujor, (2006).
-O seletor de irmãos (~) indica que queremos selecionar todos os *<p>* que foram precedidos por algum *<h2>* e são irmãos do subtítulo (ou seja, estão sob a mesma tag pai). <br/>
+* Fonte: Maujor, (2006).<br/>
 
-##6.2 Seletor de irmão adjacentes<br/>
+O seletor de irmãos (~) indica que queremos selecionar todos os `<p>` que foram precedidos por algum `<h2>` e são irmãos do subtítulo (ou seja, estão sob a mesma tag pai). <br/>
 
-Utilizando o HTML apresentado no quadro 18, quando se quer selecionar o paragrafo *<p>* e seguinte já existe um subtítulo *<h2>*, utilizamos o seletor de irmãos adjacentes.<br/>
+####6.2 Seletor de irmão adjacentes<br/>
+
+Utilizando o HTML apresentado no quadro 18, quando se quer selecionar o paragrafo `<p>` e seguinte já existe um subtítulo `<h2>`, utilizamos o seletor de irmãos adjacentes.<br/>
 Quadro 20: Exemplo CSS com seletor de irmão adjacentes<br/>
 `h2 + p{`<br/>
   `font-variant: small-caps;`<br/>
 `}`
 * Fonte: Maujor, (2006).<br/>
 
-	Nesse caso apenas o texto será selecionado.<br/>
+Nesse caso apenas o texto será selecionado.<br/>
 
 ###7.	Text-shadow	<br/>
 
@@ -261,7 +262,7 @@ Quadro 24: Exemplo CSS<br/>
 
 ###9.	Opacidade e RGBA<br/>
 
-É possível mudar a opacidade de um elemento para que ele seja mais transparente com o uso da propriedade opacity. É simples, a propriedade opacity recebe um valor decimal entre 0 e 1, vejamos no quadro 25 o exemplo.<br/>
+É possível mudar a opacidade de um elemento para que ele seja mais transparente com o uso da propriedade *opacity*. É simples, a propriedade *opacity* recebe um valor decimal entre 0 e 1, vejamos no quadro 25 o exemplo.<br/>
 Quadro 25: Exemplo CSS, opacity<br/>
 
 
