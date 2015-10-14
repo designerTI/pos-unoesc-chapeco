@@ -8,6 +8,11 @@ Acadêmico: Ednilson Fernando Devilla
 
 **CSS3**
 
-1.	Negação
+**1.	Negação**
 
 	Quando todos os parágrafos já tem um estilo de cor definido e precisa destacar uma cor diferente em um outro paragrafo do texto, usando uma classe resolve. Abaixo segue o exemplo.
+
+**HTML**
+
+Quadro 1: Exemplo HTML
+
