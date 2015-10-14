@@ -265,13 +265,84 @@ Quadro 24: Exemplo CSS<br/>
 É possível mudar a opacidade de um elemento para que ele seja mais transparente com o uso da propriedade *opacity*. É simples, a propriedade *opacity* recebe um valor decimal entre 0 e 1, vejamos no quadro 25 o exemplo.<br/>
 Quadro 25: Exemplo CSS, opacity<br/>
 
+`p{`<br/>
+  `opacity: 0.3;`<br/>
+`}`
+* Fonte: W3C, (2014).<br/>
 
+Além das cores hexadecimais normais (#FFFFFF pro branco), podemos criar cores a partir de seu valor RGB, passando o valor de cada canal (Red, Green, Blue) separadamente (valor entre 0 e 255).<br/>
+Quadro 26: Exemplo CSS, com todas equivalentes<br/>
+`color: #FFFFFF;`<br/>
+`color: white;`<br/>
+`color: rgb(255, 255, 255);`
+* Fonte: W3C, (2014).<br/>
 
-
-
-
-
+Porém, existe uma função chamada RGBA que recebe um quarto argumento, o chamado canal Alpha. Na prática, seria como o *opacity* daquela cor (um valor entre 0 e 1), vejamos no quadro 27.<br/>
+Quadro 27: Exemplo CSS, com a função RGBA<br/>
+`/* branco com 80% de opacidade */`<br/>
+`color: rgba(255,255,255, 0.8);`
+* Fonte: W3C, (2014).<br/>
  
+###10.	Gradientes<br/>
+O CSS3 traz suporte a declaração de gradientes sem que se precise trabalhar com imagens, além de ser simples a página fica mais leve e a renderização fica melhor por se adaptar a todos os tipos de resolução. Existe suporte a gradientes lineares e radiais. No quadro 28 podemos ver melhor a sintaxe básica.<br/>
+Quadro 28:Exemplo CSS de gradiente<br/>
+`.linear{`
+  `background: linear-gradient(white, blue);`<br/>
+`}`<br/>
+`.radial{`<br/>
+  `background: radial-gradient(white, blue);`<br/>
+`}`
+* Fonte: Caelum, (2010)<br/>
+ 
+No quadro 28 apresenta-se os exemplos dos tipos de gradientes lineares e radias, passando as cores branco (*white*) e azul (*blue*).<br/>
+	Podemos ainda usar gradientes com angulações diferentes e diversas paradas de cores.<br/>
+Quadro 29: Exemplo CSS com angulações diferentes<br/>
+`.gradiente {`<br/>
+  `background: linear-gradient(45deg, #f0f9ff 0%, #cbebff 47%, #a1dbff 100%);`<br/>
+`}`
+* Fonte: Caelum, (2010)<br/>
+ 
+###11.	Foco<br/>
 
+Coloca o foco no elemento quando ele for selecionado, no exemplo no quadro 30 apresenta o HTML normal, a única mudança ocorre no CSS.<br/>
+Quadro 30: Exemplo HTML<br/>
+`<input type="text">`
+* Fonte: Caelum, (2010)<br/>
 
+ 	Veja que o HTML não muda, acima apresenta um simples input do tipo text, no quadro 31 apresenta o CSS referente ao quadro 30.<br/>
+Quadro 31: Exemplo CSS, quando o foco está no input<br/>
+`input:focus{`<br/>
+    `background: yellow;`<br/>
+    `border: 1px solid black;`<br/>
+`}`
+* Fonte: Caelum, (2010)<br/>
+ 
+No quadro 31 apresenta que quando o foco está no input, à cor dele muda para amarelo (*yellow*), quando o foco sai do input a cor volta ao normal.
+<br/>
+###12.	Prefixos<br/>
+Muitos dos novos recursos do CSS3 ainda são experimentais , isso quer dizer que foram incluídos nos rascunhos, mas ainda não são 100% oficias. As especificações ainda estão em aberto e vai demorar um pouco até serem finalizadas.<br/>
+	Existem recursos mais estáveis e menos estáveis. Por outro lado, alguns são bem recentes e talvez ainda possa haver mudança até a aprovação final da especificação.<br/>
+	Os navegadores desejam implementar os novos recursos antes mesmo da especificação terminar, para que os desenvolvedores possam começar a usar as novas propriedades e experimentá-las na prática. Entretanto, como a sintaxe final depois de aprovada pode ser diferente, os navegadores implementam as novas propriedades instáveis usando nomes provisórios.<br/>
+	Uma boa pratica na utilização é pegar o nome da propriedade e colocar um prefixo na especifico do fabricante na frente. Quando a especificação ficar estável tira-se o prefixo e deixa-se a sintaxe oficial.<br/>
+Os prefixos dos fabricantes mais usados são:<br/>
+Quadro 32: Prefixos dos fabricantes mais usados<br/>
+**-webkit-**`: navegadores Webkit (Chrome, Safari, iOS, Android)`<br/>
+**-moz-**`: Firefox (Mozilla)`<br/>
+**-ms-**`: Internet Explorer (Microsoft)`<br/>
+**-o-**`: Opera`
+* Fonte: Caelum, (2010)<br/>
+Quadro 33: Utilizando os prefixos no CSS<br/>
+`p{`<br/>
+  `/* Chrome até versão 3, Safari até versão 4 */`<br/>
+  `-webkit-border-radius: 5px;`<br/><br/>
 
+  `/* Firefox até 3.6 */`<br/>
+  `-moz-border-radius: 5px;`<br/><br/>
+
+  `/* Todas as versões modernas dos navegadores, `<br/>
+   `incluindo IE e Opera que nunca precisaram de `<br/>
+   `prefixo pra isso */`<br/>
+  `border-radius: 5px;`<br/>
+`}`
+* Fonte: Caelum, (2010)<br/>
+	No quadro 33 apresenta-se a utilização de prefixos utilizados no border-radius, fazendo com que o border-radius funcione em diversos navegadores, sem que sofra qualquer alteração.<br/>
