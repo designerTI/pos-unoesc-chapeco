@@ -10,7 +10,8 @@ Acadêmico: Ednilson Fernando Devilla
 
 ###**1.	Negação**
 
-	<blockquote>Quando todos os parágrafos já tem um estilo de cor definido e precisa destacar uma cor
-	diferente em um outro paragrafo do texto, usando uma classe resolve. Abaixo segue o exemplo. <blockquote/>
+	Quando todos os parágrafos já tem um estilo de cor definido e precisa destacar uma cor
+	diferente em um outro paragrafo do texto, usando uma classe resolve. Abaixo segue o exemplo.
 
-####**HTML**
+Here's an idea: why don't we take `SuperiorProject` and turn it into `**Reasonable**Project`.
+####**HTML
