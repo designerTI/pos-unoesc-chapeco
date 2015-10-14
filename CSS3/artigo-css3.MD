@@ -1,6 +1,9 @@
 Universidade do Oeste de Santa Catarina
+
 Disciplina: Desenvolvimento com HTML5 e CSS3
+
 Professor: Jean Carlo Nascimento
+
 Acadêmico: Ednilson Fernando Devilla
 
 **CSS3**
