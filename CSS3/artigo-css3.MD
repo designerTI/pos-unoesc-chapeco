@@ -136,7 +136,7 @@ Através dessa nova especificação é possível alterar propriedades visuais do
 No exemplo apresenta-se a propriedade *transalate*.<br/>
 
 ####5.1 Translate<br/>
-**O que é? **<br/>
+**O que é?**<br/>
 Move os elementos entre os eixos X e Y.<br/>
 **Onde usar?**<br/>
 Em elementos que estejam entre os eixos X e Y<br/>
@@ -158,7 +158,7 @@ Exemplo CSS<br/>
 * Referencia: http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/<br/>
 
 ####5.2 Rotate<br/>
-**O que é? **<br/>
+**O que é?**<br/>
 Rotacão de elementos.<br/>
 **Onde usar?**<br/>
 Em elementos que possam ser rotacionados<br/>
@@ -170,10 +170,10 @@ Exemplo de CSS, que rotaciona os elementos.<br/>
 * Referencia: http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/<br/>
 
 ####5.3 Scale<br/>
-**O que é? **<br/>
+**O que é?**<br/>
 Altera escalas de elementos.<br/>
 **Onde usar?**<br/>
-Em elementos que possam ser alterados as escalas
+Em elementos que possam ser alterados as escalas<br/>
 **Como usar e exemplo de uso:**<br/>
 Exemplo de CSS, scale.<br/>
 
@@ -188,11 +188,11 @@ Exemplo de CSS, scale.<br/>
 * Referencia: http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/<br/>
 
 ####5.4 Skew<br/>
-**O que é? **<br/>
+**O que é?**<br/>
 Distoção de elementos
 **Onde usar?**<br/>
-Em elementos que possam sofrer distorção
-*Como usar e exemplo de uso:**<br/>
+Em elementos que possam sofrer distorção<br/>
+**Como usar e exemplo de uso:**<br/>
 
 Exemplo CSS, distorce os elementos selecionados.<br/>
 
@@ -209,7 +209,7 @@ Exemplo CSS, distorce os elementos selecionados.<br/>
 ###6.Funcionalidade: Seletores avançados<br/>
 
 ####6.1 Seletor de irmãos<br/>
-**O que é? **<br/>
+**O que é?**<br/>
 O seletor de irmãos (~) indica que queremos selecionar todos os `<p>` que foram precedidos por algum `<h2>` e são irmãos do subtítulo (ou seja, estão sob a mesma tag pai). <br/>
 
 **Onde usar?**<br/>
@@ -235,7 +235,7 @@ Exemplo CSS, seletor de irmãos<br/>
 * Referencia: http://maujor.com/tutorial/seletores_css21_parte2.php<br/>
 
 ####6.2 Seletor de irmão adjacentes<br/>
-**O que é? **<br/>
+**O que é?**<br/>
 Utilizando o HTML apresentado no exemplo acima, quando se quer selecionar o paragrafo `<p>` e seguinte já existe um subtítulo `<h2>`, utilizamos o seletor de irmãos adjacentes.<br/>
 **Onde usar?**<br/>
 Em elementos devem ter o mesmo pai e o primeiro elemento deve ser imediatamente anterior ao segundo.<br/>
@@ -249,7 +249,7 @@ Nesse caso apenas o texto será selecionado.<br/>
 * Referencia: http://maujor.com/tutorial/seletores_css21_parte2.php<br/>
 
 ###7. Funcionalidade: Text-shadow<br/>
-**O que é? **<br/>
+**O que é?**<br/>
 O text-shadow serve para colocar sombras em textos. <br/>
 **Onde usar?**<br/>
 Em textos
@@ -267,7 +267,7 @@ Exemplo CSS, passando mais de uma sombra<br/>
 * Referencia: http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/<br/> 
 
 ###8. Funcionalidade: Box-shadow<br/>
-**O que é e onde usar? **<br/>
+**O que é e onde usar?**<br/>
 Podemos colocar sombras em qualquer elemento com o box-shadow.<br/>
 
 **Como usar e exemplo de uso:**<br/>
@@ -283,7 +283,7 @@ Exemplo CSS<br/>
 * Fonte: Referencia: http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/<br/>
 
 ###9. Funcionalidade: Opacidade e RGBA<br/>
-**O que é e onde usar? **<br/>
+**O que é e onde usar?**<br/>
 É possível mudar a opacidade de um elemento para que ele seja mais transparente com o uso da propriedade *opacity*. É simples, a propriedade *opacity* recebe um valor decimal entre 0 e 1, vejamos o exemplo.<br/>
 
 **Como usar e exemplo de uso:**<br/>
@@ -307,7 +307,7 @@ Quadro 27: Exemplo CSS, com a função RGBA<br/>
 * Referencia: http://www.w3c.br/pub/Cursos/CursoCSS3/css-web.pdf<br/>
  
 ###10. Funcionalidade: Gradientes<br/>
-**O que é e onde usar? **<br/>
+**O que é e onde usar?**<br/>
 O CSS3 traz suporte a declaração de gradientes sem que se precise trabalhar com imagens, além de ser simples a página fica mais leve e a renderização fica melhor por se adaptar a todos os tipos de resolução. Existe suporte a gradientes lineares e radiais. No exemplo abaixo podemos ver melhor a sintaxe básica.<br/>
 
 **Como usar e exemplo de uso:**<br/>
@@ -328,13 +328,12 @@ Exemplo CSS com angulações diferentes<br/>
 * Referencia: http://www.w3c.br/pub/Cursos/CursoCSS3/css-web.pdf<br/>
  
 ###11. Funcionalidade: Foco<br/>
-**O que é e onde usar? **<br/>
+**O que é e onde usar?**<br/>
 Coloca o foco no elemento quando ele for selecionado, no exemplo no quadro 30 apresenta o HTML normal, a única mudança ocorre no CSS.<br/>
 **Como usar e exemplo de uso:**<br/>
 Exemplo HTML<br/>
 `<input type="text">`<br/>
-
- 	Veja que o HTML não muda, acima apresenta um simples input do tipo text, no quadro 31 apresenta o CSS referente ao quadro 30.<br/>
+Veja que o HTML não muda, acima apresenta um simples input do tipo text, no quadro 31 apresenta o CSS referente ao quadro 30.<br/>
  
  Exemplo CSS, quando o foco está no input<br/>
 `input:focus{`<br/>
@@ -345,7 +344,7 @@ No exemplo acima apresenta que quando o foco está no input, à cor dele muda pa
 * Referencia: http://www.w3c.br/pub/Cursos/CursoCSS3/css-web.pdf<br/>
  
 ###12.Funcionalidade: Prefixos<br/>
-**O que é e onde usar? **<br/>
+**O que é e onde usar?**<br/>
 Muitos dos novos recursos do CSS3 ainda são experimentais , isso quer dizer que foram incluídos nos rascunhos, mas ainda não são 100% oficias. As especificações ainda estão em aberto e vai demorar um pouco até serem finalizadas.<br/>
 	Existem recursos mais estáveis e menos estáveis. Por outro lado, alguns são bem recentes e talvez ainda possa haver mudança até a aprovação final da especificação.<br/>
 	Os navegadores desejam implementar os novos recursos antes mesmo da especificação terminar, para que os desenvolvedores possam começar a usar as novas propriedades e experimentá-las na prática. Entretanto, como a sintaxe final depois de aprovada pode ser diferente, os navegadores implementam as novas propriedades instáveis usando nomes provisórios.<br/>
