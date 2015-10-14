@@ -1,10 +1,7 @@
-Universidade do Oeste de Santa Catarina
-
-Disciplina: Desenvolvimento com HTML5 e CSS3
-
-Professor: Jean Carlo Nascimento
-
-Acadêmico: Ednilson Fernando Devilla
+Universidade do Oeste de Santa Catarina<br/>
+Disciplina: Desenvolvimento com HTML5 e CSS3<br/>
+Professor: Jean Carlo Nascimento<br/>
+Acadêmico: Ednilson Fernando Devilla<br/>
 
 #**CSS3**
 
@@ -14,11 +11,9 @@ Quando todos os parágrafos já tem um estilo de cor definido e precisa destacar
 diferente em um outro paragrafo do texto, usando uma classe resolve. Abaixo segue o exemplo.
 
 ####HTML
-Quadro 1: Exemplo HTML.
-	<p>Texto de exemplo</p>
-	<p>Texto de exemplo</p>
-	<p class="especial">Texto de exemplo especial</p>
-	<p>Mais textos de exemplos</p>
+Quadro 1: Exemplo HTML.<br/>
+	`<p>Texto de exemplo</p>`<br/>
+	`<p>Texto de exemplo</p>`<br/> 
+	`<p class="especial">Texto de exemplo especial</p>`<br/>
+	`<p>Mais textos de exemplos</p>`<br/> 
 
-
-Here's an idea: why don't we take `SuperiorProject` and turn it into `**Reasonable**Project`.
