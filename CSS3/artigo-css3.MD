@@ -62,7 +62,8 @@ Quadro 5: Exemplo CSS<br/>
 `}`
 * Fonte: Caelum, (2010).
 <br/>
-###3.	Pseudo elementos<br/>
+
+### **3. Pseudo elementos**<br/>
 Pseudo elementos são elementos que não existem no documento HTML mas podem ser selecionados através do CSS. Por exemplo o HTML fica de uma forma normal como apresentado no quadro 6.<br/>
 
 Quadro 6: Exemplo HTML<br>
@@ -85,9 +86,45 @@ Quadro 8: Exemplo CSS<br/>
  
 ###4.	Transitions<br/>
 
+Com as transitions conseguimos animar o processo de mudança de algum valor do CSS. Por exemplo, temos um elemento na posição *top:20px* e, quando passarmos o mouse em cima (*hover*), queremos que o elemento vá para *top:40px*. No quadro 9 podemos ver o exemplo.<br/>
+Quadro 9: Exemplo CSS<br/>
+`#teste{`<br/>
+  `position: relative;`<br/>
+  `top: 0;`<br/>
+`}`<br/>
+`#teste:hover{`<br/>
+  `top: 30px;`<br/>
+`}`
+* Fonte: Caelum, (2010)
+<br/>
 
+No exemplo acima o elemento é deslocado de uma vez, quando passamos o mouse em cima, caso queira que o elemento mude suavemente basta usar o código apresentado no quadro 10.<br/>
 
+Quadro 10: Exemplo CSS<br/>
+`#teste:hover{`<br/>
+  `transition: top 2s;`<br/>
+`}``
+* Fonte: Caelum, (2010)
+<br/>
+Isso indica que queremos animar a propriedade top durante 2 segundos.
 
+Por padrão, a animação é linear, mas temos outros tipos para animações mais suaves:
+<br/>
+Quadro 11: Exemplo de animações<br/>
+**linear** - `velocidade constante na animação;`<br/>
+**ease** - `redução gradual na velocidade da animação;`<br/>
+**ease-in** - `aumento gradual na velocidade da animação;`<br/>
+**ease-in-out** - `aumento gradual, depois redução gradual na velocidade da animação;`<br/>
+**cubic-bezier**`(x1,y1,x2,y2) - curva de velocidade para animação customizada (avançado);`
+* Fonte: Caelum, (2010).
+<br/>
+Quadro 12: Exemplo CSS<br/>
+`#teste:hover{`<br/>
+  `transition: top 2s ease;`<br/>
+`}`
+*Fonte: Caelum, (2010)<br/>
+
+###5.	Transforms
 
 
  
