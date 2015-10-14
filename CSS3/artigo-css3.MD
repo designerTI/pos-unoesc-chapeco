@@ -204,8 +204,7 @@ O quadro 18 apresenta um HTML que simula vários parágrafos, títulos e subtít
 Quadro 18: Exemplo HTML<br/>
 `<article>`<br/>
   `<h1>Título</h1>`<br/>
-  `<p>Início</p>`<br/><br/>
-
+  `<p>Início</p>`<br/>
   `<h2>Subtítulo</h2>`<br/>
   `<p>Texto</p>`<br/>
   `<p>Mais texto</p>`<br/>
@@ -324,7 +323,7 @@ Muitos dos novos recursos do CSS3 ainda são experimentais , isso quer dizer que
 	Existem recursos mais estáveis e menos estáveis. Por outro lado, alguns são bem recentes e talvez ainda possa haver mudança até a aprovação final da especificação.<br/>
 	Os navegadores desejam implementar os novos recursos antes mesmo da especificação terminar, para que os desenvolvedores possam começar a usar as novas propriedades e experimentá-las na prática. Entretanto, como a sintaxe final depois de aprovada pode ser diferente, os navegadores implementam as novas propriedades instáveis usando nomes provisórios.<br/>
 	Uma boa pratica na utilização é pegar o nome da propriedade e colocar um prefixo na especifico do fabricante na frente. Quando a especificação ficar estável tira-se o prefixo e deixa-se a sintaxe oficial.<br/>
-Os prefixos dos fabricantes mais usados são:<br/>
+Os prefixos dos fabricantes mais usados são:<br/><br/>
 Quadro 32: Prefixos dos fabricantes mais usados<br/>
 **-webkit-**`: navegadores Webkit (Chrome, Safari, iOS, Android)`<br/>
 **-moz-**`: Firefox (Mozilla)`<br/>
@@ -334,11 +333,9 @@ Quadro 32: Prefixos dos fabricantes mais usados<br/>
 Quadro 33: Utilizando os prefixos no CSS<br/>
 `p{`<br/>
   `/* Chrome até versão 3, Safari até versão 4 */`<br/>
-  `-webkit-border-radius: 5px;`<br/><br/>
-
+  `-webkit-border-radius: 5px;`<br/>
   `/* Firefox até 3.6 */`<br/>
-  `-moz-border-radius: 5px;`<br/><br/>
-
+  `-moz-border-radius: 5px;`<br/>
   `/* Todas as versões modernas dos navegadores, `<br/>
    `incluindo IE e Opera que nunca precisaram de `<br/>
    `prefixo pra isso */`<br/>
