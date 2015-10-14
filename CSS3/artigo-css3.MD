@@ -368,3 +368,4 @@ Utilizando os prefixos no CSS<br/>
   `border-radius: 5px;`<br/>
 `}`<br/>
 	No exemplo acima apresenta-se a utilização de prefixos utilizados no border-radius, fazendo com que o border-radius funcione em diversos navegadores, sem que sofra qualquer alteração.<br/>
+* Referencia: http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/ <br/>
