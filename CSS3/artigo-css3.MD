@@ -62,6 +62,7 @@ Quadro 5: Exemplo CSS<br/>
 `}`
 * Fonte: Caelum, (2010).
 <br/>
+O exemplo acima mostra o uso de pseudo-classes em listas
 
 ### **3. Pseudo elementos**<br/>
 Pseudo elementos são elementos que não existem no documento HTML mas podem ser selecionados através do CSS. Por exemplo o HTML fica de uma forma normal como apresentado no quadro 6.<br/>
