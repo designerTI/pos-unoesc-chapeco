@@ -1,7 +1,9 @@
 
 
-###<center>Atomic design<center/><br/>
+###Atomic design<br/>
+
 Ednilson Fernando Devilla<br/>
+{marciano.guete@gmail.com}<br>
 
 ####Resumo<br/>
 Neste artigo iremos abortar  como funciona o Atomic design criado por Brad Frost, que através de analogias científicas curiosas, e ferramentas inspiradas nos Guias de Estilo, promete modificar a maneira de como organizamos e desenvolvemos interfaces.<br/>
@@ -35,4 +37,5 @@ Nesse formato, o sistema passa a ter maior escalabilidade. Você não está esco
 * FROST, Brad. Atomic Desing. 2013. Disponível em: <http://bradfrost.com/blog/post/atomic-web-design/>. Acesso em 13 out. 2015.<br/>
 * GUERRATO, Dani. O que é Design Atômico?. 2013. Disponível em: <http://tableless.com.br/o-que-e-design-atomic/>. Acesso em: 13 out. 2015.<br/>
 * NASCIMENTO, Jean Carlo. Atomic Design - Por que usar?. 2014.  Disponível em: <http://nomadev.com.br/atomic-design-por-que-usar>. Acesso em: 13 out. 2015.<br/>
-* ORTIZ, Mateus. Atomic Design como funciona. 2014. Disponível em: < http://www.frontendbrasil.com.br/tutoriais/atomic-design-como-funciona/>. Acesso em: 13 out. 2015.
+* ORTIZ, Mateus. Atomic Design como funciona. 2014. Disponível em: < http://www.frontendbrasil.com.br/tutoriais/atomic-design-como-funciona/>. Acesso em: 13 out. 2015.<br/>
+* TEIXEIRA, Fabricio. Atomic Design: redesenhando os entregáveis de designers e desenvolvedores. 2014. Disponível em: <http://arquiteturadeinformacao.com/mobile/atomic-design-redesenhando-os-entregaveis-de-designers-e-desenvolvedores/>. Acesso em: 13 out. 2015. <br/>
