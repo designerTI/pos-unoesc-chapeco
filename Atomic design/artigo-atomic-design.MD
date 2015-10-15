@@ -6,9 +6,10 @@ Ednilson Fernando Devilla<br/>
 {marciano.guete@gmail.com}<br>
 
 ####Resumo<br/>
-Neste artigo iremos abortar  como funciona o Atomic design criado por Brad Frost, que através de analogias científicas curiosas, e ferramentas inspiradas nos Guias de Estilo, promete modificar a maneira de como organizamos e desenvolvemos interfaces.<br/>
+Neste artigo iremos abordar como funciona o Atomic design criado por Brad Frost, que através de analogias científicas, promete modificar a maneira de como organizamos e desenvolvemos interfaces.<br/>
 ####1) O que é?<br/>
 É uma forma de pensar sobre o projeto que depende de componentes interligados, a partir de pequenas partes, que formam um todo organizado.<br/>
+Em vez de olhar para os sites como um conjunto de páginas, você olha como um sistema de design, onde você divide em pequenos blocos que se juntam para eventualmente formar interfaces.
 
 ####2) Como funciona<br/>
 Brad Frost utilizou metáfororas bastante conhecidas: átomos, moléculas, organismos, modelos e páginas.<br>
@@ -22,9 +23,10 @@ Brad Frost utilizou metáfororas bastante conhecidas: átomos, moléculas, organ
 Para se criar um padrão de código, que seja bem definido, de código limpo para facilitar a leitura e manutenção do código.<br/>
 Os membros do time de design e do time do cliente conseguem visualizar melhor o sistema de design, sem necessariamente precisar ver todos os layouts salvos em .jpg em frente a eles.<br/>
 Nesse formato, o sistema passa a ter maior escalabilidade. Você não está escolhendo breakpoints ou devices específicos para montar a sua interface, mas sim criando elementos que se comportam adequadamente a todos (ou quase todos) eles.<br/>
-
+Para modularizar melhor minha interface, criando ela desde o início responsivamente.<br/>
 ####4) Onde usar?<br/>
-É usada para a criação de design de sistemas, além disso, posteriormente agiliza na produção do sistema.
+É usada para a criação de design de sistemas, além disso, posteriormente agiliza na produção do sistema.<br/>
+Utilizado geralmente em sites.
 
 ####5) Exemplos:<br/>
 **Átomos:** são nossas tags do HTML, como um botão, um input, uma label ou ainda abstratos(animações, cores, fontes), que são invisíveis.<br>
