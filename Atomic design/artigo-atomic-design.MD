@@ -1,17 +1,15 @@
-Universidade do Oeste de Santa Catarina<br/>
-Disciplina: Desenvolvimento com HTML5 e CSS3<br/>
-Professor: Jean Carlo Nascimento<br/>
-Acadêmico: Ednilson Fernando Devilla<br/><br/>
 
-###Atomic design<br/>
+
+###<center>Atomic design<center/><br/>
+Ednilson Fernando Devilla<br/>
 
 ####Resumo<br/>
 Neste artigo iremos abortar  como funciona o Atomic design criado por Brad Frost, que através de analogias científicas curiosas, e ferramentas inspiradas nos Guias de Estilo, promete modificar a maneira de como organizamos e desenvolvemos interfaces.<br/>
 ####1) O que é?<br/>
-É uma forma de pensar sobre o projeto que depende de componentes interligados, a partir de pequenas partes, que formam um todo organizado. Páginas na internet são basicamente compostas por um grupo finito de elementos (tags HTML) que podem se agrupar de diferentes maneiras para criar sistemas complexos.<br/>
+É uma forma de pensar sobre o projeto que depende de componentes interligados, a partir de pequenas partes, que formam um todo organizado.<br/>
 
 ####2) Como funciona<br/>
-Brad Frost baseado em suas aulas de quimica, utilizou metáfororas bastante conhecidas da gente: átomos, moléculas, organismos, templates e páginas.<br>
+Brad Frost utilizou metáfororas bastante conhecidas: átomos, moléculas, organismos, modelos e páginas.<br>
 **Átomos:** são os elementos mínimos presentes em uma página.<br/>
 **Moléculas:** Os átomos quando estão ligados em conjuntos formam moléculas. É a junção desses elementos em um padrão de interação que faça sentido para a pessoa que está usando.<br/>
 **Organismos:** são grupos de moléculas, que se juntam para formar algo mais complexo.<br/> 
@@ -24,14 +22,14 @@ Os membros do time de design e do time do cliente conseguem visualizar melhor o 
 Nesse formato, o sistema passa a ter maior escalabilidade. Você não está escolhendo breakpoints ou devices específicos para montar a sua interface, mas sim criando elementos que se comportam adequadamente a todos (ou quase todos) eles.<br/>
 
 ####4) Onde usar?<br/>
-
+É usada para a criação de design de sistemas, além disso, posteriormente agiliza na produção do sistema.
 
 ####5) Exemplos:<br/>
-**Átomos:**são nossas tags do HTML, como um botão, um input, uma label ou ainda abstratos(animações, cores, fontes), que são invisíveis.<br>
-**Moléculas:**Quando se tem apenas um input ou apenas um botão, eles não podem fazer nada sozinhos, mas quando se juntam em um formulários (form), eles podem fazer algo juntos.<br/>
-**Organismos:**Um organismo pode consistir de diversos componentes, como logotipo, navegação primaria, formulário de pesquisa, mas um organismo "lista de produtos" pode consistir da mesma molécula (possivelmente contendo uma imagem, o título e o preço do produto) repetindo uma ou varias vezes.<br/>
+**Átomos:** são nossas tags do HTML, como um botão, um input, uma label ou ainda abstratos(animações, cores, fontes), que são invisíveis.<br>
+**Moléculas:** quando se tem apenas um input ou apenas um botão, eles não podem fazer nada sozinhos, mas quando se juntam em um formulários (form), eles podem fazer algo juntos.<br/>
+**Organismos:** Um organismo pode consistir de diversos componentes, como logotipo, navegação primaria, formulário de pesquisa, mas um organismo "lista de produtos" pode consistir da mesma molécula (possivelmente contendo uma imagem, o título e o preço do produto) repetindo uma ou varias vezes.<br/>
 **Modelos:** Os modelos são os que fornecem contexto para todas as moleculas abstratas dos organismos. Os modelos são também onde os clientes começam a ver o desenho final no lugar.<br/>
-**Paginas:**Através da página é possível ver todos os elementos menores como imagens e videos no contexto real e assim validar a efetividade do produto final após os ajustes
+**Paginas:** Através da página é possível ver todos os elementos menores como imagens e videos no contexto real e assim validar a efetividade do produto final após os ajustes
 ####Referência<br/>
 * BLOOM, Chiristopher. Your Frontend Methodology Is All of Them: Atomic Design & Pattern Lab. 2014. Disponível em: <https://www.phase2technology.com/blog/your-frontend-methodology-is-all-of-them-atomic-design-patternlab>. Acesso em: 13 out. 2015.<br/>
 * FROST, Brad. Atomic Desing. 2013. Disponível em: <http://bradfrost.com/blog/post/atomic-web-design/>. Acesso em 13 out. 2015.<br/>
