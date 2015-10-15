@@ -23,7 +23,7 @@ Brad Frost utilizou metáfororas bastante conhecidas: átomos, moléculas, organ
 Para se criar um padrão de código, que seja bem definido, de código limpo para facilitar a leitura e manutenção do código.<br/>
 Os membros do time de design e do time do cliente conseguem visualizar melhor o sistema de design, sem necessariamente precisar ver todos os layouts salvos em .jpg em frente a eles.<br/>
 Nesse formato, o sistema passa a ter maior escalabilidade. Você não está escolhendo breakpoints ou devices específicos para montar a sua interface, mas sim criando elementos que se comportam adequadamente a todos (ou quase todos) eles.<br/>
-Para modularizar melhor minha interface, criando ela desde o início responsivamente.<br/>
+Para modularizar melhor a interface, criando ela desde o início responsivamente.<br/>
 ####4) Onde usar?<br/>
 É usada para a criação de design de sistemas, geralmente esses sistemas são sites.<br/>
 
@@ -32,7 +32,8 @@ Para modularizar melhor minha interface, criando ela desde o início responsivam
 **Moléculas:** quando se tem apenas um input ou apenas um botão, eles não podem fazer nada sozinhos, mas quando se juntam em um formulários (form), eles podem fazer algo juntos.<br/>
 **Organismos:** Um organismo pode consistir de diversos componentes, como logotipo, navegação primaria, formulário de pesquisa, mas um organismo "lista de produtos" pode consistir da mesma molécula (possivelmente contendo uma imagem, o título e o preço do produto) repetindo uma ou varias vezes.<br/>
 **Modelos:** Os modelos são os que fornecem contexto para todas as moleculas abstratas dos organismos. Os modelos são também onde os clientes começam a ver o desenho final no lugar.<br/>
-**Paginas:** Através da página é possível ver todos os elementos menores como imagens e videos no contexto real e assim validar a efetividade do produto final após os ajustes
+**Paginas:** Através da página é possível ver todos os elementos menores como imagens e videos no contexto real e assim validar a efetividade do produto final após os ajustes<br/>
+
 ####Referência<br/>
 * BLOOM, Chiristopher. Your Frontend Methodology Is All of Them: Atomic Design & Pattern Lab. 2014. Disponível em: <https://www.phase2technology.com/blog/your-frontend-methodology-is-all-of-them-atomic-design-patternlab>. Acesso em: 13 out. 2015.<br/>
 * FROST, Brad. Atomic Desing. 2013. Disponível em: <http://bradfrost.com/blog/post/atomic-web-design/>. Acesso em 13 out. 2015.<br/>
