@@ -12,11 +12,11 @@ Neste artigo iremos abortar  como funciona o Atomic design criado por Brad Frost
 
 ####2) Como funciona<br/>
 Brad Frost baseado em suas aulas de quimica, utilizou metáfororas bastante conhecidas da gente: átomos, moléculas, organismos, templates e páginas.<br>
-**Átomos:** são nossas tags do HTML, como um botão, um input, uma label ou ainda abstratos(animações, cores, fontes), que são invisíveis.<br/>
-**Moléculas:** Os átomos quando estão ligados em conjuntos formam moléculas. Quando se tem apenas um input ou apenas um botão, eles não podem fazer nada sozinhos, mas quando se juntam em um formulários (form), eles podem fazer algo juntos.<br/>
-**Organismos:** são grupos de moléculas, que se juntam para formar algo mais complexo. Por exemplo, um organismo pode consistir de diversos componentes, como logotipo, navegação primaria, formulário de pesquisa, mas um organismo "lista de produtos" pode consistir da mesma molécula (possivelmente contendo uma imagem, o título e o preço do produto) repetindo uma ou varias vezes.<br/>
-**Modelos:** consistem principalmente de grupos de organismos, que os organismos juntos com os modelos formam as paginas. Os modelos são os que fornecem contexto para todas as moelculas abstratas dos organismos.<br/>
-**Paginas** são onde os usuários passaram o seu tempo, também é onde testamos a eficácia do sistema de design.<br/> 
+**Átomos:** são os elementos mínimos presentes em uma página.<br/>
+**Moléculas:** Os átomos quando estão ligados em conjuntos formam moléculas. É a junção desses elementos em um padrão de interação que faça sentido para a pessoa que está usando.<br/>
+**Organismos:** são grupos de moléculas, que se juntam para formar algo mais complexo.<br/> 
+**Modelos:** consistem principalmente de grupos de organismos, os organismos juntos com os modelos formam as paginas. <br/>
+**Paginas:** são onde os usuários passaram o seu tempo, também é onde testamos a eficácia do sistema de design.<br/> 
 
 ####3) Para que usar<br/>
 Para se criar um padrão de código, que seja bem definido, de código limpo para facilitar a leitura e manutenção do código.<br/>
@@ -25,10 +25,16 @@ Nesse formato, o sistema passa a ter maior escalabilidade. Você não está esco
 
 ####4) Onde usar?<br/>
 
+
 ####5) Exemplos:<br/>
-
+**Átomos:**são nossas tags do HTML, como um botão, um input, uma label ou ainda abstratos(animações, cores, fontes), que são invisíveis.<br>
+**Moléculas:**Quando se tem apenas um input ou apenas um botão, eles não podem fazer nada sozinhos, mas quando se juntam em um formulários (form), eles podem fazer algo juntos.<br/>
+**Organismos:**Um organismo pode consistir de diversos componentes, como logotipo, navegação primaria, formulário de pesquisa, mas um organismo "lista de produtos" pode consistir da mesma molécula (possivelmente contendo uma imagem, o título e o preço do produto) repetindo uma ou varias vezes.<br/>
+**Modelos:** Os modelos são os que fornecem contexto para todas as moleculas abstratas dos organismos. Os modelos são também onde os clientes começam a ver o desenho final no lugar.<br/>
+**Paginas:**Através da página é possível ver todos os elementos menores como imagens e videos no contexto real e assim validar a efetividade do produto final após os ajustes
 ####Referência<br/>
-
-Atomic design é uma metodologia para a criação de sistemas de design. A
-
-
+* BLOOM, Chiristopher. Your Frontend Methodology Is All of Them: Atomic Design & Pattern Lab. 2014. Disponível em: <https://www.phase2technology.com/blog/your-frontend-methodology-is-all-of-them-atomic-design-patternlab>. Acesso em: 13 out. 2015.<br/>
+* FROST, Brad. Atomic Desing. 2013. Disponível em: <http://bradfrost.com/blog/post/atomic-web-design/>. Acesso em 13 out. 2015.<br/>
+* GUERRATO, Dani. O que é Design Atômico?. 2013. Disponível em: <http://tableless.com.br/o-que-e-design-atomic/>. Acesso em: 13 out. 2015.<br/>
+* NASCIMENTO, Jean Carlo. Atomic Design - Por que usar?. 2014.  Disponível em: <http://nomadev.com.br/atomic-design-por-que-usar>. Acesso em: 13 out. 2015.<br/>
+* ORTIZ, Mateus. Atomic Design como funciona. 2014. Disponível em: < http://www.frontendbrasil.com.br/tutoriais/atomic-design-como-funciona/>. Acesso em: 13 out. 2015.
