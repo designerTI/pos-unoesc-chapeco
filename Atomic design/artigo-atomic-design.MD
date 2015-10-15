@@ -6,8 +6,9 @@ Acadêmico: Ednilson Fernando Devilla<br/><br/>
 ###Atomic design<br/>
 
 ####Resumo<br/>
-
+Neste artigo iremos abortar  como funciona o Atomic design criado por Brad Frost, que através de analogias científicas curiosas, e ferramentas inspiradas nos Guias de Estilo, promete modificar a maneira de como organizamos e desenvolvemos interfaces.<br/>
 ####1) O que é?<br/>
+É uma forma de pensar sobre o projeto que depende de componentes interligados, a partir de pequenas partes, que formam um todo organizado. Páginas na internet são basicamente compostas por um grupo finito de elementos (tags HTML) que podem se agrupar de diferentes maneiras para criar sistemas complexos.<br/>
 
 ####2) Como funciona<br/>
 
