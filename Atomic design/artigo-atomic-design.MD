@@ -25,8 +25,7 @@ Os membros do time de design e do time do cliente conseguem visualizar melhor o 
 Nesse formato, o sistema passa a ter maior escalabilidade. Você não está escolhendo breakpoints ou devices específicos para montar a sua interface, mas sim criando elementos que se comportam adequadamente a todos (ou quase todos) eles.<br/>
 Para modularizar melhor minha interface, criando ela desde o início responsivamente.<br/>
 ####4) Onde usar?<br/>
-É usada para a criação de design de sistemas, além disso, posteriormente agiliza na produção do sistema.<br/>
-Utilizado geralmente em sites.
+É usada para a criação de design de sistemas, geralmente esses sistemas são sites.<br/>
 
 ####5) Exemplos:<br/>
 **Átomos:** são nossas tags do HTML, como um botão, um input, uma label ou ainda abstratos(animações, cores, fontes), que são invisíveis.<br>
